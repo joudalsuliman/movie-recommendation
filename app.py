@@ -14,7 +14,7 @@ load_dotenv()
 
 
 MAILERSEND_TOKEN = os.getenv("MAILERSEND_TOKEN")
-##
+############ this is a comment
 def send_verification_email(email_to, code):
     url = "https://api.mailersend.com/v1/email"
 
